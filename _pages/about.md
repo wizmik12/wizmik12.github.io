@@ -32,8 +32,8 @@ multiple annotators.
 ### 📅 Jan 1, 2025 — Starting a new visit at DTU funded by José Castillejo fellowship
 I started a new visit to DTU. I'm going to resume some exciting topics about UQ and fairness with Aasa and Søren. 
 
-### 📅 Dec 28, 2024 — New university project!
-I've been granted with a small project from my university to do trustworthy AI models for skin cancer. These funds will allow me to go to some conferences next year and buy new material!
+### 📅 Dec 28, 2024 — New university grant!
+I've been awarded with a small grant from my university to do trustworthy AI models for skin cancer. These funds will allow me to go to some conferences next year and buy new material!
 
 ### 📅 Jun 17, 2024 — New MICCAI paper
 Our MICCAI's submission with Natalia have been accepted publication! It's about domain adaptation in anomaly detection for whole slide images.

@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Miguel"
+title                    : "Miguel López-Pérez"
 title_separator          : "-"
 name                     : &name "Miguel López-Pérez"
 description              : &description "personal description"
@@ -22,12 +22,12 @@ repository               : "wizmik12/wizmik12.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Miguel"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral researcher @ UPV"
+  bio              : "Juan de la Cierva fellow"
   location         : "Valencia"
-  employer         : "Universitat Politècnica de València"
+  employer         : "UPV"
   uri              : # URL
   email            : "mlopper3[at]upv[dot]es" 
 

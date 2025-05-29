@@ -4,7 +4,7 @@ title: "News"
 permalink: /news/
 ---
 
-# News
+# News!
 
 
 ---
