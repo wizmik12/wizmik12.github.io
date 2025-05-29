@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-# About me!
+# About me
 
 I am **Miguel López-Pérez**, a **postdoctoral Juan de la Cierva fellow** at the [Universitat Politècnica de València](https://github.com/academicpages/academicpages.github.io) under the supervision of [Valery Naranjo](https://www.upv.es/ficha-personal/vnaranjo) at the [CVBLab](https://www.cvblab.webs.upv.es/en/home/). I do research in methodology of **machine learning** and its applications (mainly) to the **medical imaging domain**. I have a wide experience in computational pathology and probabilistic models. I am also interested in topics related to:
 - Fairness 
@@ -17,14 +17,14 @@ I am **Miguel López-Pérez**, a **postdoctoral Juan de la Cierva fellow** at th
 
 ---
 
-## Last updates!
+# Latest updates
 
 ### 📅 Apr 18, 2025 - New Histopathology dataset published at Scientific data
 The AI4SkIN dataset is out! Check it out. It contains 641 WSIs from 2 Spanish hospitals with
 multiple annotators.
 
 ### 📅 March 26, 2025 - New paper accepted at SCIA!
-[New paper accept](https://arxiv.org/abs/2501.11752) during my visit to DTU. Are generative models fair? In this paper, we study the racial bias in dermatology images using a VAE.
+[New paper accepted](https://arxiv.org/abs/2501.11752) during my visit to DTU. Are generative models fair? In this paper, we study the racial bias in dermatology images using a VAE.
 
 ### 📅 March 18, 2025 - New preprint!
 [New preprint](https://arxiv.org/abs/2503.17477) during my visit to DTU. We explore the extension of UQ methods to high-dimensional output models as VAE in medical imaging.
