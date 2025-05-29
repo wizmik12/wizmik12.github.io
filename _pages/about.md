@@ -7,9 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am Miguel López-Pérez, a postdoctoral Juan de la Cierva fellow at the [Universitat Politècnica de València](https://github.com/academicpages/academicpages.github.io) under the supervision of [Valery Naranjo](https://www.upv.es/ficha-personal/vnaranjo) at the [CVBLab](https://www.cvblab.webs.upv.es/en/home/). I do research in methodology of machine learning and its applications (mainly) to the medical imaging domain. I have a wide experience in computational pathology and probabilistic models. I am also interested in topics related to fairness, generative models, uncertainty quantification, and explainability.
+I am **Miguel López-Pérez**, a **postdoctoral Juan de la Cierva fellow** at the [Universitat Politècnica de València](https://github.com/academicpages/academicpages.github.io) under the supervision of [Valery Naranjo](https://www.upv.es/ficha-personal/vnaranjo) at the [CVBLab](https://www.cvblab.webs.upv.es/en/home/). I do research in methodology of **machine learning** and its applications (mainly) to the **medical imaging domain**. I have a wide experience in computational pathology and probabilistic models. I am also interested in topics related to:
+- fairness 
+- generative models
+- uncertainty quantification
+- explainability
 
 ## Last updates!
+
+---
 
 ### 📅 Apr 18, 2025 - New Histopathology dataset published at Scientific data
 The AI4SkIN dataset is out! Check it out. It contains 641 WSIs from 2 Spanish hospitals with
