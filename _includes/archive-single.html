@@ -1,7 +1,9 @@
+{% assign seen_titles = "" | split: "," %}
+
 <div class="publications-list">
   {% for post in site.publications reversed %}
-    {% assign has_any_link = post.paperurl or post.slidesurl or post.codeurl or post.bibtexurl %}
-    {% if has_any_link %}
+    {% unless seen_titles contains post.title %}
+      {% assign seen_titles = seen_titles | push: post.title %}
       <div class="publication__item">
         <p>
           <strong>{{ post.title }}</strong><br />
@@ -14,25 +16,16 @@
             <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}<br />
           {% endif %}
 
-          {% comment %} Conditional Links {% endcomment %}
           {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">PDF</a>{% endif %}
-          {% if post.slidesurl %}
-            {% if post.paperurl %} | {% endif %}
-            <a href="{{ post.slidesurl }}" target="_blank">Slides</a>
-          {% endif %}
-          {% if post.codeurl %}
-            {% if post.paperurl or post.slidesurl %} | {% endif %}
-            <a href="{{ post.codeurl }}" target="_blank">Code</a>
-          {% endif %}
-          {% if post.bibtexurl %}
-            {% if post.paperurl or post.slidesurl or post.codeurl %} | {% endif %}
-            <a href="{{ post.bibtexurl }}" target="_blank">BibTeX</a>
-          {% endif %}
+          {% if post.slidesurl %} | <a href="{{ post.slidesurl }}" target="_blank">Slides</a>{% endif %}
+          {% if post.codeurl %} | <a href="{{ post.codeurl }}" target="_blank">Code</a>{% endif %}
+          {% if post.bibtexurl %} | <a href="{{ post.bibtexurl }}" target="_blank">BibTeX</a>{% endif %}
         </p>
       </div>
-    {% endif %}
+    {% endunless %}
   {% endfor %}
 </div>
+
 
 
 
