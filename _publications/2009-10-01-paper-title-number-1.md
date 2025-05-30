@@ -6,8 +6,6 @@ category: manuscripts
 permalink: /publication/scientific_data_2025
 date: 2025-05-14
 venue: 'Scientific Data'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 citation: 'Del Amor, R., López-Pérez, M., Meseguer, P., Morales, S., Terradez, L., Aneiros-Fernandez, J., ... & Naranjo, V. (2025). A fusocelular skin dataset with whole slide images for deep learning models. Scientific Data, 12(1), 1-7.'
 ---
