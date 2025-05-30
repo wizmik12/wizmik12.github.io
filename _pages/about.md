@@ -41,6 +41,6 @@ Our MICCAI's submission with Natalia have been accepted publication! It's about 
 ### 📅 Jun 1, 2024 — Visit to DTU
 I have started a 4-month visit at DTU under the supervision of Aasa Feragen and Søren Hauberg. I'll explore UQ and fairnes in generative models. Pretty exciting!
 
-### 📅 Jan 1, 2024 — Postdoctoral fellowship start
+### 📅 Jan 1, 2024 — New Postdoctoral fellowship start
 I'm starting as a Juan de la Cierva fellow at the Universitat Politècnica de València (UPV).
 I'm truly thrilled, as this is one of the most competitive postdoctoral fellowships for early-career researchers.
