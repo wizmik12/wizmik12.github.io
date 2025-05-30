@@ -11,26 +11,41 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
+<div class="publications-list">
+
+  {% assign seen_ids = "" | split: "," %}
+
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% assign cid = post.canonical_id | default: post.title %}
+    {% unless seen_ids contains cid %}
+      {% assign seen_ids = seen_ids | push: cid %}
+
+      <div class="publication__item">
+        <p>
+          <strong>{{ post.title }}</strong><br />
+          {% if post.authors %}
+            {{ post.authors | join: ", " }}<br />
+          {% elsif post.author %}
+            {{ post.author }}<br />
+          {% endif %}
+          {% if post.venue %}
+            <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}<br />
+          {% endif %}
+
+          {% assign links = "" %}
+          {% if post.paperurl %}{% assign links = links | append: '<a href="' | append: post.paperurl | append: '" target="_blank">PDF</a>' %}{% endif %}
+          {% if post.slidesurl %}{% assign links = links | append: ' | <a href="' | append: post.slidesurl | append: '" target="_blank">Slides</a>' %}{% endif %}
+          {% if post.codeurl %}{% assign links = links | append: ' | <a href="' | append: post.codeurl | append: '" target="_blank">Code</a>' %}{% endif %}
+          {% if post.bibtexurl %}{% assign links = links | append: ' | <a href="' | append: post.bibtexurl | append: '" target="_blank">BibTeX</a>' %}{% endif %}
+
+          {{ links | remove_first: ' | ' }}
+        </p>
+      </div>
+
+    {% endunless %}
   {% endfor %}
-{% endif %}
+
+</div>
 
 
 
