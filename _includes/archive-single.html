@@ -19,7 +19,11 @@
       <div class="publication__item">
         <p>
           <strong>{{ post.title }}</strong><br />
-          {% if post.authors %}{{ post.authors }}<br />{% endif %}
+          {% if post.authors %}
+            {{ post.authors | join: ", " }}<br />
+          {% elsif post.author %}
+            {{ post.author }}<br />
+          {% endif %}
           {% if post.venue %}<em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}<br />{% endif %}
 
           <a href="{{ post.paperurl }}" target="_blank">PDF</a>
@@ -32,4 +36,5 @@
   {% endfor %}
 
 </div>
+
 
