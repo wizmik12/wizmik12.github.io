@@ -19,6 +19,16 @@ I am **Miguel López-Pérez**, a **postdoctoral Juan de la Cierva fellow** at th
 
 # Latest updates
 
+### 📅 Dec 7, 2025 - Presenting at MedEURIPS!
+
+### 📅 Sept 22, 2025 - Tutorial at FAIMI
+I contributed with a hands-on session in the [tutorial of FAIMI](https://faimi-workshop.github.io/2025-miccai-tutorial/), which is about Fairness
+in Medical Imaging. It was an amazing time in MICCAI, BTW!
+
+### 📅 Sept 16, 2025 - New beggining at University of Granada as an interim lecturer
+Today, I start a new chapter in my life. I come back to Granada to gave classes as an interim lecturer.
+This is a temporary position but I can get engaged with students to carry out new projects! Feels exciting! :)
+
 ### 📅 Apr 18, 2025 - New Histopathology dataset published at Scientific data
 The AI4SkIN dataset is out! Check it out. It contains 641 WSIs from 2 Spanish hospitals with
 multiple annotators.
