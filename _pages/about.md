@@ -9,7 +9,7 @@ redirect_from:
 
 # About me
 
-I am **Miguel López-Pérez**, an **interim professor** at the [University of Granada](https://www.ugr.es/). I am board member of [RISE-MICCAI](https://rise-miccai.org/) as tutorial coordinator and volunteer in [Pint of Science](https://pintofscience.com/). 
+I am **Miguel López-Pérez**, a lecturer at the [University of Granada](https://www.ugr.es/). I am board member of [RISE-MICCAI](https://rise-miccai.org/) as tutorial coordinator and volunteer in [Pint of Science](https://pintofscience.com/). 
 
 I do research in methodology of **machine learning** and its applications (mainly) to the **medical imaging domain**. I have a wide experience in computational pathology and probabilistic models. I am also interested in topics related to:
 - Fairness 
