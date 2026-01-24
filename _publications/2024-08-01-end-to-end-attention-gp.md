@@ -6,13 +6,13 @@ permalink: /publication/2024-08-01-end-to-end-attention-gp
 excerpt: 'End-to-end approach combining attention and Gaussian Processes for CT hemorrhage detection.'
 date: 2024-08-01
 venue: 'Expert Systems with Applications'
-authors: "J. Pérez-Cano, Y. Wu, A. Schmidt, M. López-Pérez, P. Morales-Álvarez, R. Molina, A. K. Katsaggelos"
+authors: "J. Pérez-Cano (CA), Y. Wu, A. Schmidt, M. López-Pérez, P. Morales-Álvarez, R. Molina, A. K. Katsaggelos"
 volume: '240'
 pages: '122296'
 impact_factor: '7.5'
-quartile: 'Q1: 7/106'
-citations: '9'
-fwci: '1.21'
+quartile: 'Q1: 6/106'
+citations: '4'
+fwci: '1.99'
 position: '4/7'
 paperurl: 'https://doi.org/10.1016/j.eswa.2024.122296'
 ---

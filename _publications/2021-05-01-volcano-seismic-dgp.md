@@ -6,13 +6,14 @@ permalink: /publication/2021-05-01-volcano-seismic-dgp
 excerpt: 'Deep Gaussian Processes for automatic classification of volcano-seismic events.'
 date: 2021-05-01
 venue: 'IEEE Transactions on Geoscience and Remote Sensing'
-authors: "M. López-Pérez, L. García, C. Benítez, R. Molina"
+authors: "M. López-Pérez (CA), L. García, C. Benítez, R. Molina"
 volume: '59'
 issue: '5'
 pages: '3875-3890'
 impact_factor: '8.125'
-quartile: 'Q1/D1'
-citations: '11'
+quartile: 'Q1: 29/276'
+citations: '13'
+fwci: '0.90'
 position: '1/4'
 ---
 

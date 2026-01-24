@@ -6,13 +6,13 @@ permalink: /publication/2023-12-01-annotation-protocol-cr-ai4skin
 excerpt: 'Annotation protocol and crowdsourced dataset for skin cancer classification.'
 date: 2023-12-01
 venue: 'Artificial Intelligence in Medicine'
-authors: "R. del Amor*, J. Pérez-Cano*, M. López-Pérez*, L. Terradez, [...], V. Naranjo"
+authors: "R. del Amor*, J. Pérez-Cano*, M. López-Pérez* (CA), L. Terradez, [...], V. Naranjo"
 volume: '145'
 pages: '102686'
 impact_factor: '6.1'
 quartile: 'Q1: 37/197'
-citations: '11'
-fwci: '1.04'
+citations: '6'
+fwci: '0.48'
 position: '3*/9'
 paperurl: 'https://doi.org/10.1016/j.artmed.2023.102686'
 ---

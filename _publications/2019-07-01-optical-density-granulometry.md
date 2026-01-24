@@ -6,12 +6,12 @@ permalink: /publication/2019-07-01-optical-density-granulometry
 excerpt: 'Optical density granulometry descriptor for prostate cancer classification using Gaussian processes.'
 date: 2019-07-01
 venue: 'Computer Methods and Programs in Biomedicine'
-authors: "Á. Esteban*, M. López-Pérez*, A. Colomer, M. A. Sales, R. Molina, V. Naranjo"
+authors: "Á. Esteban*, M. López-Pérez (CA)*, A. Colomer, M. A. Sales, R. Molina, V. Naranjo"
 volume: '178'
 pages: '303-317'
 impact_factor: '3.632'
 quartile: 'Q1: 16/108'
-citations: '43'
+citations: '39'
 fwci: '1.15'
 position: '2*/6'
 paperurl: 'https://doi.org/10.1016/j.cmpb.2019.07.005'
