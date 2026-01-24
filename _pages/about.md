@@ -9,23 +9,34 @@ redirect_from:
 
 # About me
 
-I am **Miguel López-Pérez**, a **postdoctoral Juan de la Cierva fellow** at the [Universitat Politècnica de València](https://github.com/academicpages/academicpages.github.io) under the supervision of [Valery Naranjo](https://www.upv.es/ficha-personal/vnaranjo) at the [CVBLab](https://www.cvblab.webs.upv.es/en/home/). I do research in methodology of **machine learning** and its applications (mainly) to the **medical imaging domain**. I have a wide experience in computational pathology and probabilistic models. I am also interested in topics related to:
+I am **Miguel López-Pérez**, an **interim professor** at the [University of Granada](https://www.ugr.es/). I am board member of [RISE-MICCAI](https://rise-miccai.org/) as tutorial coordinator and volunteer in [Pint of Science](https://pintofscience.com/). 
+
+I do research in methodology of **machine learning** and its applications (mainly) to the **medical imaging domain**. I have a wide experience in computational pathology and probabilistic models. I am also interested in topics related to:
 - Fairness 
 - Generative models
 - Uncertainty quantification
 - Explainability
 
+
+
 ---
 
 # Latest updates
 
+### 📅 Dec 20, 2025 - RISE-tutorial coordinator
+I have taken on the role of RISE-tutorial coordinator. Excited to lead and organize engaging tutorial sessions!
+
+### 📅 Dec 15, 2025 - Outstanding Doctoral Thesis Award
+I received the outstanding doctoral thesis award in the course (2021/2022).
+
 ### 📅 Dec 7, 2025 - Presenting at MedEURIPS!
+We presented an ongoing work on Uncertainty Quantification in VAEs and its application to fairness in medical imaging.
 
 ### 📅 Sept 22, 2025 - Tutorial at FAIMI
 I contributed with a hands-on session in the [tutorial of FAIMI](https://faimi-workshop.github.io/2025-miccai-tutorial/), which is about Fairness
 in Medical Imaging. It was an amazing time in MICCAI, BTW!
 
-### 📅 Sept 16, 2025 - New beggining at University of Granada as an interim lecturer
+### 📅 Sept 16, 2025 - New beginning at University of Granada as an interim lecturer
 Today, I start a new chapter in my life. I come back to Granada to gave classes as an interim lecturer.
 This is a temporary position but I can get engaged with students to carry out new projects! Feels exciting! :)
 
