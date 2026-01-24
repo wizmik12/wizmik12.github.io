@@ -7,32 +7,28 @@ author_profile: true
 
 ## Teaching Experience
 
-### Academic Year 2025–2026
+### Academic Year 2025–2026 (UGR)
 
-**Computer Science courses:**
+**Bachelor in Computer Science:**
 - Data Structures  
 - Algorithms  
 - Engineering of Information Systems  
 
-**Telecommunications course:**
+**Bachelor in Telecommunications:**
 - Foundations of Programming  
 
-Teaching focused on core programming principles, algorithmic thinking, and system-level design.
 
 
----
-
-### Academic Year 2024–2025
-**Advanced Methods for Artificial Vision**  
-*Degree:* Master in Telecommunications 
-
-Course covering advanced techniques in computer vision, including modern machine learning and deep learning approaches for visual data analysis.
 
 ---
 
+### Academic Year 2024–2025 (UPV)
+**Master in Telecommunications **  
+- Advanced Methods for Artificial Vision
 
-### Academic Year 2022–2023
-**Engineering of Information Systems**  
-*Degree:* Bachelor in Computer Science  
+---
 
-Teaching activities included lectures and practical sessions focused on the design, analysis, and implementation of information systems.
+
+### Academic Year 2022–2023 (UGR)
+**Bachelor in Computer Science **  
+- Engineering of Information Systems
