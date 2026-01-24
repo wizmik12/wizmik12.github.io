@@ -11,25 +11,29 @@ author_profile: true
 **Funding:** Ministerio de Ciencia, Innovación y Universidades (PID2024-161597OA-I00)  
 **PI:** A. Colomer (UPV)  
 
-### 2. Addressing the Major Challenges of Computational Pathology for Robust Cancer Image Classification: Uncertainty Quantification and Explainability (OVERCOME)
-**Period:** 2025  
-**Funding:** Ministerio de Ciencia, Innovación y Universidades - José Castillejo Fellowship (CAS23/00387)  
-**PI:** Miguel López-Pérez (UPV)  
-
 ### 3. Towards a Trustworthy Artificial Intelligence Solution for Skin Cancer Identification
 **Period:** 2025  
 **Funding:** UPV  
 **PI:** M. López-Pérez  
 
-### 4. New Artificial Intelligence Algorithm for Non-invasive Automatic Evaluation of Blastocysts (INREIA/2024/14)
-**Period:** 2025-2026  
-**Funding:** Generalitat Valenciana  
-**PI:** V. Naranjo  
-
 ### 5. Content-Based Image Retrieval for the Diagnosis of Primary and Secondary Skin Tumours (PID2022-140189OB-C21)
 **Period:** 2023-2026  
 **Funding:** Ministerio de Ciencia, Innovación y Universidades  
 **PI:** V. Naranjo (UPV)  
+
+---
+
+## Completed Projects
+
+### 2. Addressing the Major Challenges of Computational Pathology for Robust Cancer Image Classification: Uncertainty Quantification and Explainability (OVERCOME)
+**Period:** 2025  
+**Funding:** Ministerio de Ciencia, Innovación y Universidades - José Castillejo Fellowship (CAS23/00387)  
+**PI:** Miguel López-Pérez (UPV)  
+
+### 4. New Artificial Intelligence Algorithm for Non-invasive Automatic Evaluation of Blastocysts (INREIA/2024/14)
+**Period:** 2025-2026  
+**Funding:** Generalitat Valenciana  
+**PI:** V. Naranjo  
 
 ### 6. Cloud Artificial Intelligence for Pathology (CLARIFY)
 **Period:** 2019-2023  
