@@ -6,7 +6,7 @@ permalink: /publication/2025-01-01-fusocelular-skin-dataset
 excerpt: 'A fusocelular skin cancer dataset with whole slide images for deep learning models.'
 date: 2025-01-01
 venue: 'Scientific Data'
-authors: "R. del Amor*, M. López-Pérez*, P. Meseguer*, S. Morales, [...], V. Naranjo"
+authors: "R. del Amor*, M. López-Pérez*, P. Meseguer*, S. Morales,  L. Terradez, J. Aneiros-Fernandez, J. Mateos, R. Molina, V. Naranjo"
 volume: '12'
 number: '1'
 pages: '788'
