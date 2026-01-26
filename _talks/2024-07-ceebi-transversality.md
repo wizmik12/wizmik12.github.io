@@ -9,4 +9,4 @@ authors: "M. López-Pérez"
 venue: "CEEBI 2024"
 ---
 
-Invited keynote on the transversality of AI, bionics, and bioengineering in bioscience research.
+Invited to a panel discussion on the transversality of AI, bionics, and bioengineering in bioscience research.

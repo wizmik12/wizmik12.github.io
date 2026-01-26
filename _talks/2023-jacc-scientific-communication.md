@@ -9,4 +9,4 @@ authors: "M. López-Pérez"
 venue: "JACC 2023"
 ---
 
-Invited keynote on scientific communication and outreach.
+Invited to a panel discussion on scientific communication and outreach.
