@@ -23,6 +23,9 @@ I do research in methodology of **machine learning** and its applications (mainl
 
 # Latest updates
 
+### 📅 Jun 1, 2026 - Two new papers accepted!
+ICIP accepted our work on evaluating demographic fairness in histopathology foundation models (with Natalia P. García-de-la-Puente and Valery Naranjo). IPMU accepted our paper on zero-shot vision–language models for agri-food image classification (with Andrea Morales-Garzón, Salvador Lopez-Joya, and Maria J. Martin-Bautista). 
+
 ### 📅 Dec 20, 2025 - RISE-tutorial coordinator
 I have taken on the role of RISE-tutorial coordinator. Excited to lead and organize engaging tutorial sessions!
 

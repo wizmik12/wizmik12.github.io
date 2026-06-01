@@ -1,0 +1,437 @@
+/* ==========================================================================
+   CUSTOM STYLES - academic aesthetic refinements
+   ========================================================================== */
+
+/* --- Body & typography --------------------------------------------------- */
+
+body {
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+}
+
+/* --- Masthead ------------------------------------------------------------- */
+
+.masthead {
+  box-shadow: 0 1px 0 var(--global-border-color);
+
+  &::after {
+    display: none;
+  }
+
+  &__inner-wrap {
+    padding: 0.75em 1em;
+  }
+}
+
+.greedy-nav {
+  a {
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+
+    &.site-title {
+      font-family: 'Lora', Georgia, serif;
+      font-weight: 600;
+    }
+  }
+}
+
+/* --- Sidebar / Author profile -------------------------------------------- */
+
+.author__avatar {
+  img {
+    border-radius: 50%;
+    border: none !important;
+    box-shadow: 0 0 0 3px var(--global-border-color), 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 0 !important;
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 0 0 3px var(--global-accent-color), 0 4px 16px rgba(74, 111, 165, 0.2);
+    }
+  }
+}
+
+.author__name {
+  font-family: 'Lora', Georgia, serif !important;
+  font-weight: 600 !important;
+  font-size: 1.05rem !important;
+  letter-spacing: -0.02em;
+}
+
+.author__bio {
+  font-size: 0.825rem;
+  color: var(--global-text-color-light);
+  font-style: italic;
+  font-family: 'Lora', Georgia, serif;
+}
+
+.author__urls {
+  a {
+    font-size: 0.8rem !important;
+    color: var(--global-text-color) !important;
+    transition: color 0.15s ease, padding-left 0.15s ease;
+    padding-left: 0 !important;
+
+    &:hover {
+      text-decoration: none !important;
+      color: var(--global-accent-color) !important;
+      padding-left: 3px !important;
+    }
+  }
+
+  .fas, .fab, .ai {
+    width: 1.1em;
+    text-align: center;
+    color: var(--global-text-color-light);
+    transition: color 0.15s ease;
+  }
+
+  a:hover .fas,
+  a:hover .fab,
+  a:hover .ai {
+    color: var(--global-accent-color);
+  }
+}
+
+/* --- Page content --------------------------------------------------------- */
+
+.page__content {
+  line-height: 1.7;
+
+  p {
+    color: var(--global-text-color);
+  }
+
+  a {
+    color: var(--global-link-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s ease, color 0.15s ease;
+
+    &:hover {
+      color: var(--global-link-color-hover);
+      border-bottom-color: var(--global-link-color-hover);
+    }
+  }
+
+  /* H2 section dividers */
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--global-text-color-light);
+    border-bottom: 2px solid var(--global-accent-color) !important;
+    padding-bottom: 0.4em !important;
+    margin-top: 2.5em;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Timeline: H3 update entries */
+  h3 {
+    position: relative;
+    padding-left: 1em;
+    font-size: 0.95rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.01em;
+    color: var(--global-text-color);
+    margin-top: 1.6em;
+    margin-bottom: 0.3em;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.15em;
+      bottom: 0.15em;
+      width: 3px;
+      background: var(--global-accent-color);
+      border-radius: 2px;
+    }
+  }
+
+  /* Paragraph right after an H3 (update body text) */
+  h3 + p {
+    font-size: 0.875rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.2em;
+    padding-left: 1em;
+    border-left: 3px solid var(--global-border-color);
+    margin-left: 0;
+  }
+
+  /* Tighter lists */
+  ul li {
+    margin-bottom: 0.3em;
+  }
+}
+
+/* --- HR divider ---------------------------------------------------------- */
+
+.page__content hr {
+  margin: 2.5em 0;
+  border-top: 1px solid var(--global-border-color);
+}
+
+/* --- Footer -------------------------------------------------------------- */
+
+.page__footer {
+  border-top: 1px solid var(--global-border-color) !important;
+  background-color: var(--global-footer-bg-color) !important;
+}
+
+.page__footer-copyright {
+  color: var(--global-text-color-light);
+  font-size: 0.7rem;
+}
+
+/* --- Code blocks --------------------------------------------------------- */
+
+pre.highlight {
+  border-radius: $border-radius;
+  border: 1px solid var(--global-border-color);
+}
+
+/* --- Navigation links ----------------------------------------------------- */
+
+.nav__list .nav__items a {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* --- Teaching ------------------------------------------------------------ */
+
+.teaching-timeline {
+  margin-top: 1em;
+}
+
+.teaching-year {
+  margin-bottom: 2.5em;
+}
+
+.teaching-year__label {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+  letter-spacing: -0.02em;
+}
+
+.teaching-year__institution {
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.1em;
+  margin-bottom: 0.9em;
+  font-style: italic;
+}
+
+.teaching-courses {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.course-card {
+  display: flex;
+  align-items: center;
+  gap: 0.9em;
+  padding: 0.7em 1em;
+  border-radius: 8px;
+  border: 1px solid var(--global-border-color);
+  transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  background: var(--global-bg-color);
+
+  &:hover {
+    transform: translateX(3px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  &--bachelor {
+    border-left: 3px solid var(--global-accent-color);
+
+    &:hover {
+      border-color: var(--global-accent-color);
+    }
+  }
+
+  &--master {
+    border-left: 3px solid #7c5cbf;
+
+    &:hover {
+      border-color: #7c5cbf;
+    }
+  }
+}
+
+.course-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15em;
+}
+
+.course-card__name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--global-text-color);
+}
+
+.course-card__meta {
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+  font-family: 'Inter', sans-serif;
+}
+
+/* --- Smooth scroll ------------------------------------------------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* --- Publications --------------------------------------------------------- */
+
+.scholar-link {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 2em;
+}
+
+
+.pub-year-label {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+  font-family: 'Lora', Georgia, serif;
+  margin: 1.8em 0 0.4em;
+  letter-spacing: -0.02em;
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5em;
+}
+
+.pub-entry {
+  padding: 0.65em 0;
+  border-bottom: 1px solid var(--global-border-color);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto auto;
+  column-gap: 1.5em;
+  align-items: baseline;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.pub-entry__title {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--global-text-color);
+  line-height: 1.4;
+
+  a {
+    color: inherit;
+    border-bottom: none !important;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-accent-color) !important;
+      border-bottom: none !important;
+    }
+  }
+}
+
+.pub-entry__venue {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.12em;
+  display: flex;
+  align-items: baseline;
+  gap: 0.45em;
+  flex-wrap: wrap;
+
+  em {
+    font-style: italic;
+    color: var(--global-text-color);
+  }
+}
+
+.pub-type {
+  display: inline-block;
+  font-size: 0.62rem;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.1em 0.45em;
+  border-radius: 3px;
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+  vertical-align: middle;
+
+  &--journal {
+    background: #e8eef6;
+    color: #2c4577;
+  }
+
+  &--conf {
+    background: #e8f4ee;
+    color: #1e6641;
+  }
+
+  &--preprint {
+    background: #f5f0e8;
+    color: #7a5c1e;
+  }
+}
+
+.pub-entry__authors {
+  grid-column: 1;
+  grid-row: 3;
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.1em;
+}
+
+.pub-me {
+  color: var(--global-text-color);
+  font-weight: 600;
+}
+
+.pub-entry__links {
+  grid-column: 2;
+  grid-row: 1 / 4;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  white-space: nowrap;
+
+  a {
+    font-size: 0.7rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: var(--global-text-color-light) !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    &:hover {
+      color: var(--global-accent-color) !important;
+    }
+  }
+}
